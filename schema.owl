@@ -1,0 +1,1788 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#"
+     xml:base="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#伴随 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#伴随">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#别名 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#别名">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#包括 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#包括">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动并发症"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#协同 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#协同">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可使用检查 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可使用检查">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可治疗 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可治疗">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可被治疗 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可被治疗">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可运动类型 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#可运动类型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#含有 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#含有">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#营养元素"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#宜烹饪方式 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#宜烹饪方式">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#烹饪方法"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#导致 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#导致">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#恶化 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#恶化">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#持续时间 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#持续时间">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动时间"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#改善 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#改善">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#施加于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#施加于">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是临床表现 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是临床表现">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是多发群体 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是多发群体">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是诊断依据 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是诊断依据">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是诊断所需检查 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是诊断所需检查">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是风险因素 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#是风险因素">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#健康风险因素"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有METs指标 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有METs指标">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#METs指标"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有不良反应 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有不良反应">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不良反应"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有代谢当量 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有代谢当量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#代谢当量"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有传播途径 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有传播途径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#传播方式"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有作用对象 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有作用对象">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#人体部位"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有利于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有利于">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有剂型 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有剂型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#剂型"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有剂量 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有剂量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物剂量"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有功效 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有功效">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#功效"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有参考值 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有参考值">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#生理指标"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有发生部位 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有发生部位">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#人体部位"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有受检条件 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有受检条件">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#受检状态"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有处方状态 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有处方状态">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#处方状态"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有存储时间 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有存储时间">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#存储时间"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有少食人群 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有少食人群">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有就诊科室 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有就诊科室">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#科室"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有并发症 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有并发症">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有心率 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有心率">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#心率"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有成分 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有成分">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有时令季节 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有时令季节">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#时令"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有最大摄氧量 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有最大摄氧量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#最大摄氧量"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有检查作用 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有检查作用">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查作用"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有治疗手段 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有治疗手段">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗手段"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有治疗目标 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有治疗目标">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#效果"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有注意事项 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有注意事项">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#注意事项"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有生理指标 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有生理指标">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#生理指标"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有用法用量 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有用法用量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#用法用量"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有疾病分型 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有疾病分型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病分型"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌人群 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌人群">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌药品 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌药品">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌食物 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有禁忌食物">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有贮藏条件 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有贮藏条件">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#贮藏条件"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有运动强度 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有运动强度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有运动禁忌 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有运动禁忌">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有适宜人群 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#有适宜人群">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#群体 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#群体">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#英文名 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#英文名">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#证实 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#证实">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#采取 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#采取">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#降低 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#降低">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#METs指标 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#METs指标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不良反应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不良反应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#临床反应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#临床反应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#人体部位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#人体部位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#代谢当量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#代谢当量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#传播方式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#传播方式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#健康风险因素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#健康风险因素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#剂型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#剂型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#功效 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#功效">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#发生频率 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#发生频率">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#受检状态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#受检状态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#处方状态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#处方状态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#存储时间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#存储时间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#心率 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#心率">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#持续时间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#持续时间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#效果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#效果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#时令 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#时令">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#最大摄氧量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#最大摄氧量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗手段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗手段">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#注意事项 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#注意事项">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#烹饪方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#烹饪方法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#物质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#物质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#生理指标 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#生理指标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#用法用量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#用法用量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病分型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病分型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#科室 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#科室">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物剂量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物剂量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物持续时间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物持续时间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物方剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#营养元素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#营养元素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为"/>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味料品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味料品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味粉料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味粉料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味料品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味酱料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味酱料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味料品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味香料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味香料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味料品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#贮藏条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#贮藏条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动并发症 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动并发症">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动时间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动时间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动频率 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动频率">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#问题"/>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#饮食"/>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#麻醉方式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#麻醉方式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一个半月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一个半月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#持续时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一周测两次 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一周测两次">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#发生频率"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一天一次 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一天一次">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#用法用量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一年 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一年">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#持续时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一日两次 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#一日两次">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#用法用量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#三个月左右 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#三个月左右">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#存储时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不健康饮食 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不健康饮食">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#健康风险因素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不超过6个月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不超过6个月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#存储时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不进餐不服药 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不进餐不服药">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#注意事项"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#丙型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#丙型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病分型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#中 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#中">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#乙型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#乙型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病分型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#二甲双胍 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#二甲双胍">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#低血糖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#低血糖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#全身麻醉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#全身麻醉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#麻醉方式"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#内分泌科 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#内分泌科">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#科室"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#冬季 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#冬季">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#时令"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#决明子 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#决明子">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#物质"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#分散片 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#分散片">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#剂型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#半个月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#半个月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物持续时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#吃药 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#吃药">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为名称"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#在餐前30min服用 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#在餐前30min服用">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#注意事项"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#夏季 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#夏季">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#时令"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#头痛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#头痛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不良反应"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#头部 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#头部">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#人体部位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#妊娠期糖尿病早期筛查 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#妊娠期糖尿病早期筛查">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查作用"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#密封 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#密封">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#贮藏条件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#局部麻醉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#局部麻醉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#麻醉方式"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#意外伤害事件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#意外伤害事件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动并发症"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#手术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#手术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#指迷茯苓丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#指迷茯苓丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物方剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#接触传播 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#接触传播">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#传播方式"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#控制的很好 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#控制的很好">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#效果"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#欧芹 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#欧芹">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味香料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#止痛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#止痛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#效果"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#每周2-3次 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#每周2-3次">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动频率"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#每天20min -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#每天20min">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动频率"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#测血糖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#测血糖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#行为名称"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#消化内科 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#消化内科">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#科室"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#消肿止痛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#消肿止痛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#功效"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#淀粉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#淀粉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味粉料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#炒 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#炒">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#烹饪方法"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#炸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#炸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#烹饪方法"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#煎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#煎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#烹饪方法"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#甜面酱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#甜面酱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味酱料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#益气养阴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#益气养阴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#功效"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#空腹 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#空腹">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#受检状态"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#糖尿病 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#糖尿病">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#糖尿病患者 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#糖尿病患者">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#维生素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#维生素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#营养元素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#罗红霉素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#罗红霉素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#肚子 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#肚子">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#人体部位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#胃肠不适 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#胃肠不适">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#不良反应"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#胰岛功能差 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#胰岛功能差">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#胶囊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#胶囊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#剂型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#自我血糖检测 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#自我血糖检测">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#芦荟 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#芦荟">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#物质"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#花生酱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#花生酱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味酱料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#蛋白质 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#蛋白质">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#营养元素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血气分析 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血气分析">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血液传播 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血液传播">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#传播方式"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血糖减少 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血糖减少">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血糖升高 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血糖升高">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查结果"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血脂异常 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#血脂异常">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#西洋参 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#西洋参">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#物质"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#西红柿 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#西红柿">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#诊断糖尿病肾病 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#诊断糖尿病肾病">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#检查作用"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#辣椒粉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#辣椒粉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味粉料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动损伤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动损伤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动并发症"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#迷迭香 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#迷迭香">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#调味香料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#金黄抱龙丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#金黄抱龙丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物方剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#阴凉保存 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#阴凉保存">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#贮藏条件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#阴性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#阴性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#生理指标"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#阿卡波糖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#阿卡波糖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#青少年 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#青少年">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#特定人群"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#非空腹 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#非空腹">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#受检状态"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#餐后2h血糖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#餐后2h血糖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#健康风险因素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#马铃薯 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#马铃薯">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#食材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#高 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#高">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动强度"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#高血压 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#高血压">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#疾病"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#麻醉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#麻醉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#治疗手段"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#1h -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#1h">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#100-110(次/分) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#100-110(次/分)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#心率"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#代谢当量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#135-145(次/分) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#135-145(次/分)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#心率"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#16周 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#16周">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物持续时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#20mg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#20mg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物剂量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#2h血糖水平＜7.8mmol/L -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#2h血糖水平＜7.8mmol/L">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#生理指标"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#30min -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#30min">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#运动时间"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#METs指标"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#5.8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#5.8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#METs指标"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#500ml -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#500ml">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#药物剂量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#6.5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#6.5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#代谢当量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#70-80 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#70-80">
+        <rdf:type rdf:resource="http://www.semanticweb.org/吴小凡/ontologies/2024/4/untitled-ontology-23#最大摄氧量"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
